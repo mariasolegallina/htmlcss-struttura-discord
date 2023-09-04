@@ -12,6 +12,13 @@ body {
 
 .debug .page-header {
     background-color: #add8e6;
-    padding: 20px;
+    padding: 10px;
     min-height: 60px;
 }
+
+.debug .page-footer {
+    background-color: #23272a;
+    padding-top: 10px;
+    min-height: 60px;
+}
+
