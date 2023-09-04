@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+}
+
+/* DEBUG */
+
+.debug .page-header {
+    background-color: #add8e6;
+    padding: 20px;
+    min-height: 60px;
+}
