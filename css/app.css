@@ -36,13 +36,15 @@ section {
 }
 
 .col-35 {
-    background-color: #fec0ca;
     flex-basis: 35%;
 }
 
 .col-65 {
-    background-color: #1c90ff;
     flex-basis: 65%;
+}
+
+.col-100 {
+    flex-basis: 100%;
 }
 
 .reverse {
@@ -80,4 +82,17 @@ section {
     border-style: dashed;
     border-width: 2px;
     min-height: 300px;
+}
+
+.debug .col-35 {
+    background-color: #fec0ca;
+}
+
+.debug .col-65 {
+    background-color: #1c90ff;
+}
+
+.debug .col-100 {
+    background-color: #228b21;
+    min-height: 600px;
 }
