@@ -6,7 +6,24 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0, auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* navbar */
+.logo {
+    flex-basis: calc(100% / 4);
+}
+
 
 /* DEBUG */
 
@@ -22,3 +39,10 @@ body {
     min-height: 60px;
 }
 
+.debug .logo,
+.debug .page-menu,
+.debug .login {
+    background-color: #daa520;
+    border: #23272a;
+    border-style: dashed;
+}
