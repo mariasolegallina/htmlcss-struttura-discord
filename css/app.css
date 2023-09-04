@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0, auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .row {
@@ -20,10 +20,14 @@ body {
 }
 
 /* navbar */
-.logo {
+.logo,
+.login {
     flex-basis: calc(100% / 4);
 }
 
+.page-menu {
+    flex-grow: 1;
+}
 
 /* DEBUG */
 
