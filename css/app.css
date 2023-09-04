@@ -45,6 +45,14 @@ section {
     flex-basis: 65%;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.grey-bg {
+    background-color: #d3d3d3;
+}
+
 /* DEBUG */
 
 .debug .page-header {
