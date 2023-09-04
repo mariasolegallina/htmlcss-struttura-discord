@@ -43,6 +43,15 @@ section {
     justify-content: space-between;
     align-items: center;
 }
+
+/* hero section */
+.hero-section {
+    background-color: #00008b;
+}
+
+.hero-section .row {
+    justify-content: center;
+}
  
 
 /* columns & bg-sections */
@@ -97,6 +106,12 @@ section {
     background-color: #daa520;
     border: #23272a;
     border-style: dashed;
+}
+
+/* debug hero section */
+
+.hero-section .col-70 {
+    background-color: #ee81ee;
 }
 
 /* debug footer */
